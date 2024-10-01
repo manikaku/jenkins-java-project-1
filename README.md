@@ -6,6 +6,7 @@ Here’s a brief overview of what I achieved:
 1. Jenkins: For automating the CI/CD pipeline
 2. Java: For the sample application
 3. Tomcat: For deploying the web application
+
 Master-Slave Architecture: To distribute the workload efficiently
 
 -->Project Highlights:
