@@ -19,6 +19,7 @@ Master-Slave Architecture: To distribute the workload efficiently
 Tomcat Set-Up
 =================
 Goto Slave and install tomcat.(https://dlcdn.apache.org/)
+
 Commands:
 1. tar -zxvf apache-tomcat-9.0.74.tar.gz
 2. cd apache-tomcat-9.0.74.tar.gz
