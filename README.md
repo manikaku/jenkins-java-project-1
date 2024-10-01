@@ -3,30 +3,30 @@ Here’s a brief overview of what I achieved:
 
 -->Technologies Used:
 =============================
--->Jenkins: For automating the CI/CD pipeline
--->Java: For the sample application
--->Tomcat: For deploying the web application
+1. Jenkins: For automating the CI/CD pipeline
+2. Java: For the sample application
+3. Tomcat: For deploying the web application
 Master-Slave Architecture: To distribute the workload efficiently
 
 -->Project Highlights:
 =========================
-Set up Jenkins to automate the build, test, and deployment process.
-Configured a master-slave architecture in Jenkins to ensure scalability and reliability.
-Deployed the Java application to a Tomcat server seamlessly.
-Achieved successful build and deployment results, ensuring the application is production-ready.
+1. Set up Jenkins to automate the build, test, and deployment process.
+2. Configured a master-slave architecture in Jenkins to ensure scalability and reliability.
+3. Deployed the Java application to a Tomcat server seamlessly.
+4. Achieved successful build and deployment results, ensuring the application is production-ready.
 
 Tomcat Set-Up
 =================
---> Goto Slave and install tomcat.(https://dlcdn.apache.org/)
+Goto Slave and install tomcat.(https://dlcdn.apache.org/)
 Commands:
---> tar -zxvf apache-tomcat-9.0.74.tar.gz
---> cd apache-tomcat-9.0.74.tar.gz
---> vim webapps/manager/META-INF/context.xml ( Delete these 2 lines (21 and 22))
---> vim conf/tomcat-users.xml (Add these 3 lines at the end of the file)
+1. tar -zxvf apache-tomcat-9.0.74.tar.gz
+2. cd apache-tomcat-9.0.74.tar.gz
+3. vim webapps/manager/META-INF/context.xml ( Delete these 2 lines (21 and 22))
+4. vim conf/tomcat-users.xml (Add these 3 lines at the end of the file)
 <role rolename="manager-gui"/>
 <role rolename="manager-script"/>
 <user username="tomcat" password="raham123" roles="manager-gui, manager-script"/>
---> ./bin/startup.sh ( tomcat will get starts )
+5.  ./bin/startup.sh ( tomcat will get starts )
 
 
 This project helped me deepen my understanding of CI/CD principles and the importance of automation in modern software development.
