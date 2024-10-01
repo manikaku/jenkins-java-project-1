@@ -23,9 +23,6 @@ Commands:
 2. cd apache-tomcat-9.0.74.tar.gz
 3. vim webapps/manager/META-INF/context.xml ( Delete these 2 lines (21 and 22))
 4. vim conf/tomcat-users.xml (Add these 3 lines at the end of the file)
-( <role rolename="manager-gui"/>
-<role rolename="manager-script"/>
-<user username="tomcat" password="raham123" roles="manager-gui, manager-script"/> )
 5.  ./bin/startup.sh ( tomcat will get starts )
 
 
